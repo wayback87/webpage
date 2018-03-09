@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("/smontour/webpage")
+        app = docker.build("smontour/webpage")
     }
 
     stage('Test image') {
